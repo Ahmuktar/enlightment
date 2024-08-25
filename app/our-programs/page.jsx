@@ -15,16 +15,16 @@ const OurPrograms = () => {
             <div className="container lg:pl-[100px] lg:flex items-start">
                 <div className="w-full lg:max-w-[58%] pt-28 lg:pt-[250px]">
                   <h1 className="text-5xl lg:text-8xl font-bold mb-4">All about our programs</h1>
-                  <p className="text-2xl mt-5 lg:w-[500px]">We have created programs that will help people in various areas of life. Good should be distributed in all areas of life!</p>
+                  <p className="text-xl lg:text-2xl mt-5 lg:w-[500px]">We have created programs that will help people in various areas of life. Good should be distributed in all areas of life!</p>
                 </div>
             </div>
         </section>
 
-        <section className="container lg:mb-[150px] sm:mt-10 lg:flex items-center justify-center">
-          <div className="w-full px-[20px]">
+        <section className="container lg:mb-[150px] mt-10 lg:flex items-center justify-center">
+          <div className="w-full lg:lg:px-[20px]">
             <Image src="/images/image9.png" className="w-full" width={500} height={500} alt="Image" />
           </div>
-          <div className="w-full pt-[61px] lg:pl-[140px] flex flex-col justify-center">
+          <div className="w-full pt-5 lg:pt-[61px] lg:pl-[140px] flex flex-col justify-center">
             <p className="font-medium text-lg text-gray uppercase mb-5">Health program</p>
             <Link href={programs[0].link} className="text-4xl lg:text-5xl hover:text-primary font-bold mb-5 text-black">
               {programs[0].title}
@@ -43,10 +43,10 @@ const OurPrograms = () => {
           </div>
         </section>
 
-      <section className="container lg:mb-[150px] flex sm:flex-col-reverse lg:flex-row items-center justify-center">
-        <div className="w-full pt-[61px] flex flex-col justify-center">
+      <section className="container lg:mb-[150px] flex flex-col-reverse lg:flex-row items-center justify-center">
+        <div className="w-full pt-5 lg:pt-[61px] flex flex-col justify-center">
           <p className="font-medium text-lg text-gray uppercase mb-5">Education</p>
-          <Link href={programs[1].link} className="text-5xl hover:text-primary font-bold mb-5 text-black">
+          <Link href={programs[1].link} className="text-3xl lg:text-5xl hover:text-primary font-bold mb-5 text-black">
             {programs[1].title}
           </Link>
           <p className="font-normal text-xl w-[83%] my-2 text-gray">
@@ -58,18 +58,18 @@ const OurPrograms = () => {
             <li className="flex items-center gap-1 text-xl text-gray"><Dot className="h-16 w-16" />Results of educational programs</li>
           </ul>
         </div>
-        <div className="w-full px-[20px]">
+        <div className="w-full lg:px-[20px]">
           <Image src="/images/image10.png" className="w-full" width={500} height={500} alt="Image" />
         </div>
       </section>
 
-      <section className="container lg:mb-[150px] lg:flex items-center justify-center">
-        <div className="w-full px-[20px]">
+      <section className="container lg:mb-[150px] flex flex-col lg:flex-row items-center justify-center">
+        <div className="w-full lg:px-[20px]">
           <Image src="/images/image11.png" className="w-full" width={500} height={500} alt="Image" />
         </div>
-        <div className="w-full pt-[61px] lg:pl-[140px] flex flex-col justify-center">
+        <div className="w-full pt-5 lg:pt-[61px] lg:pl-[140px] flex flex-col justify-center">
           <p className="font-medium text-lg text-gray uppercase mb-5">Empowerment</p>
-          <Link href={programs[2].link} className="text-5xl hover:text-primary font-bold mb-5 text-black">
+          <Link href={programs[2].link} className="text-3xl lg:text-5xl hover:text-primary font-bold mb-5 text-black">
             {programs[2].title}
           </Link>
           <p className="font-normal text-xl lg:w-[83%] my-2 text-gray">
@@ -81,10 +81,10 @@ const OurPrograms = () => {
         </div>
       </section>
 
-      <section className="container mb-[150px] flex sm:flex-col-reverse lg:flex-row items-center justify-center">
-        <div className="w-full pt-[61px] flex flex-col justify-center">
+      <section className="container mb-[150px] flex flex-col-reverse lg:flex-row items-center justify-center">
+        <div className="w-full pt-5 lg:pt-[61px] flex flex-col justify-center">
           <p className="font-medium text-lg text-gray uppercase mb-5">Empowerment</p>
-          <Link href={programs[3].link} className="text-5xl hover:text-primary font-bold mb-5 text-black">
+          <Link href={programs[3].link} className="text-3xl lg:text-5xl hover:text-primary font-bold mb-5 text-black">
             {programs[3].title}
           </Link>
           <p className="font-normal text-xl lg:w-[83%] my-2 text-gray">
@@ -98,7 +98,7 @@ const OurPrograms = () => {
             Assistance is provided to citizens who, as a result of a natural disaster, fire, or man-made disaster, lost the largest part of their property and necessities.
           </p>
         </div>
-        <div className="w-full px-[20px]">
+        <div className="w-full lg:px-[20px]">
           <Image src="/images/image12.png" className="w-full" width={500} height={500} alt="Image" />
         </div>
       </section>
@@ -107,9 +107,9 @@ const OurPrograms = () => {
         <div className="container flex items-center">
           <div className="lg:max-w-[65%] py-[70px] lg:py-[150px]">
             <h1 className="text-4xl lg:text-8xl font-bold mb-4">Bringing people together to end poverty for good.</h1>
-            <p className="text-2xl my-4 w-[500px]">We are constantly providing assistance to low-income families in many areas.</p>
+            <p className="text-xl lg:text-2xl my-4 w-[500px]">We are constantly providing assistance to low-income families in many areas.</p>
             <div className="mt-16 lg:my-16">
-              <Link href="/contacts" type="button" className="bg-secondary text-lg font-semibold text-[#222] hover:text-white rounded-full hover:bg-primary w-full py-5 px-20">
+              <Link href="/contacts" type="button" className="bg-secondary text-lg font-semibold text-[#222] hover:text-white rounded-full hover:bg-primary w-full py-5 px-10">
                 Volunteer Now
               </Link>
             </div>

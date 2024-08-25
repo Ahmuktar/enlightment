@@ -29,7 +29,7 @@ const SingleProgram = () => {
             </div>
         </section>
 
-        <section className="flex lg:flex-row sm:flex-col sm:mt-10 container items-center lg:items-start justify-center gap-10 lg:gap-20">
+        <section className="flex lg:flex-row flex-col mt-10 container items-center lg:items-start justify-center gap-10 lg:gap-20">
             <Image src="/images/image9.png" className="sm:w-full lg:w-fit" width={500} height={400} alt="Image" />
             <Image src="/images/image13.png" className="" width={500} height={400} alt="Image" />
         </section>

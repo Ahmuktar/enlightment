@@ -42,7 +42,7 @@ const Volunteer = () => {
             <div className="w-full">
                 <div className="w-full lg:flex items-start lg:mb-[154px] lg:mt-[-250px]">
                     <div className="lg:flex items-start">
-                        <Image src="/images/image4.webp" className="border-[30px] border-secondary sm:mb-5 w-full lg:ml-[-100px]" width={300} height={300} alt="Image" />
+                        <Image src="/images/image4.webp" className="border-[30px] border-secondary mb-5 w-full lg:ml-[-100px]" width={300} height={300} alt="Image" />
                         <Image src="/images/image5.webp" className="lg:ml-[20px] w-full lg:w-[70%]" width={600} height={600} alt="Image" />
                     </div>
                 </div>
@@ -89,7 +89,7 @@ const Volunteer = () => {
                     <h1 className="text-4xl lg:text-8xl font-bold mb-4">Running Social Value Programs</h1>
                     <p className="text-2xl my-4">Create maximum opportunities for yourself to realize their goals.</p>
                     <div className="mt-16 lg:my-16">
-                        <Link href="/who-we-are" type="button" className="bg-secondary text-lg font-semibold text-[#222] rounded-full hover:bg-primary w-full py-5 px-20">
+                        <Link href="/who-we-are" type="button" className="bg-secondary text-lg font-semibold text-[#222] rounded-full hover:bg-primary w-full py-5 px-10">
                             Volunteer Now
                         </Link>
                     </div>

@@ -18,7 +18,7 @@ const MobileNav = ({ isLight }) => {
          <Sheet>
             <SheetTrigger>
                 <svg
-                    className={`navbar-burger pt-2 ${textColor}`}
+                    className={`navbar-burger ${textColor}`}
                     fill="none"
                     height="60"
                     viewBox="0 0 70 70"
@@ -34,7 +34,7 @@ const MobileNav = ({ isLight }) => {
                     <path d="M37 32H19M37 24H19" stroke="black"></path>
                 </svg>
             </SheetTrigger>
-            <SheetContent side="right" className="border-none bg-[#222]">
+            <SheetContent side="right" className="border-none z-50 bg-[#222]">
                 <div className='flex h-[calc(100vh-72px)] flex-col py-10 justify-between overflow-y-auto'>
                     <SheetClose asChild>
                         <section className='flex w-full flex-col justify-center'>

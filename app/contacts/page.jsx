@@ -23,14 +23,14 @@ const Contacts = () => {
             </div>
         </section>
 
-        <section className="flex sm:px-4 sm:flex-col-reverse lg:flex-row items-center justify-center">
-            <div className="w-full mt-[5%] items-center justify-center">
+        <section className="flex px-4 flex-col-reverse lg:flex-row items-center justify-center">
+            <div className="w-full lg:mt-[5%] items-center justify-center">
                 <div className="lg:w-[80%] lg:ml-[30%]">
                     <p className="font-medium text-lg text-gray mb-5">GET IN TOUCH</p>
                     <h1 className="text-3xl lg:text-5xl font-bold mb-10  text-black">Connect with us today. Let’s talk together.</h1>
                 </div>
             </div>
-            <div className="w-full flex sm:justify-center justify-end mb-[154px] lg:mt-[-100px]">
+            <div className="w-full flex sm:justify-center justify-end mb-10 lg:mb-[154px] lg:mt-[-100px]">
                 <div className="flex w-full lg:w-fit sm:flex-col justify-end lg:flex-row items-start gap-10">
                     <Image src="/images/hands.webp" className="border-[15px] lg:border-[30px] border-secondary sm:w-full lg:w-[40%] " width={300} height={300} alt="Image" />
                     <Image src="/images/children.webp" className="w-full lg:w-[70%]" width={600} height={600} alt="Image" />
@@ -38,8 +38,8 @@ const Contacts = () => {
             </div>
         </section>
 
-        <section className="space-y-10 sm:px-4 mb-10 lg:mb-[150px]">
-            <div className="flex items-center container gap-5 lg:gap-12">
+        <section className="lg:space-y-10 mb-10 lg:mb-[150px]">
+            <div className="flex flex-col lg:flex-row items-center container gap-5 lg:gap-12">
                 <div className="w-full flex flex-col">
                     <label className="text-lg text-gray">Name*</label>
                     <input required type="text" className="py-[19px] pl-[30px] pr-[20px] mb-4 rounded bg-[#FAFAFA] text-black text-lg" placeholder="Your first name" />
@@ -49,7 +49,7 @@ const Contacts = () => {
                     <input type="text" className="py-[19px] pl-[30px] pr-[20px] mb-4 rounded bg-[#FAFAFA] text-black text-lg" placeholder="Your last name" />
                 </div>
             </div>
-            <div className="flex items-center container gap-5 lg:gap-12">
+            <div className="flex flex-col lg:flex-row items-center container gap-5 lg:gap-12">
                 <div className="w-full flex flex-col">
                     <label className="text-lg text-gray">Email*</label>
                     <input required type="email" className="py-[19px] pl-[30px] pr-[20px] mb-4 rounded bg-[#FAFAFA] text-black text-lg" placeholder="Your email address" />
@@ -59,17 +59,17 @@ const Contacts = () => {
                     <input required type="tel" className="py-[19px] pl-[30px] pr-[20px] mb-4 rounded bg-[#FAFAFA] text-black text-lg" placeholder="Your phone number" />
                 </div>
             </div>
-            <div className="flex items-center container">
+            <div className="flex flex-col lg:flex-row items-center container">
                 <div className="w-full flex flex-col">
                     <label className="text-lg text-gray">Message*</label>
                     <textarea required type="text" className="py-[19px] pl-[30px] pr-[20px] mb-4 rounded bg-[#FAFAFA] text-black text-lg" placeholder="Your message"></textarea>
                 </div>
             </div>
             
-            <div className="flex flex-col items-start container justify-start gap-5 lg:gap-12">
+            <div className="flex flex-col lg:flex-row flex-col items-start container justify-start gap-5 lg:gap-12">
                 <small className="text-gray text-sm lg:w-[60%]">By signing and clicking Submit, you affirm you have read and agree to the <Link href="#" className="text-primary">Privacy Policy</Link> and <Link href="#" className="text-primary">Terms of Use</Link>, and want to receive news.</small>
 
-                <Link href="/who-we-are" type="button" className="bg-secondary text-lg font-semibold text-black rounded-full hover:bg-primary w-fit py-5 px-20">
+                <Link href="/who-we-are" type="button" className="bg-secondary text-lg font-semibold text-black rounded-full hover:bg-primary w-fit py-5 px-10">
                     Send message
                 </Link>
             </div>

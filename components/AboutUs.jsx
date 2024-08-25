@@ -4,9 +4,9 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row sm:items-center justify-center mb-32 lg:mb-[129px] lg:px-0">
+    <div className="flex flex-col-reverse lg:flex-row sm:items-center justify-center mb-18 lg:mb-[129px]">
         {/* Left Section */}
-        <div className="w-full lg:w-[60%] mb-12 lg:mb-0">
+        <div className="w-full sm:px-4 lg:w-[60%] mb-12 lg:mb-0">
             <Image 
                 src="/images/image1.webp" 
                 className="lg:mx-auto lg:mb-[50px] sm:mt-8 mb-8" 
@@ -15,7 +15,7 @@ const AboutUs = () => {
                 alt="Image" 
             />
             {/* Bottom Images */}
-            <div className="flex sm:flex-col-reverse sm-flex-col lg:flex-row place-items-end lg:place-items-start">
+            <div className="flex flex-col-reverse lg:flex-row place-items-end lg:place-items-start">
                 <Image 
                 src="/images/children.webp" 
                 className="mb-6 lg:mb-[20px] order-2 w-full lg:w-auto" 
@@ -25,7 +25,7 @@ const AboutUs = () => {
                 />
                 <Image 
                 src="/images/hands.webp" 
-                className="border-[20px] sm:mb-10 lg:border-[30px] order-3 border-secondary sm:w-full lg:ml-[50px] lg:w-auto mt-6 lg:mt-0" 
+                className="border-[20px] sm:mb-10 lg:border-[30px] order-3 border-secondary w-full lg:ml-[50px] lg:w-auto mt-6 lg:mt-0" 
                 width={300} 
                 height={300} 
                 alt="Image" 
@@ -34,7 +34,7 @@ const AboutUs = () => {
         </div>
 
         {/* Right Section */}
-        <div className="w-full lg:w-[40%] flex">
+        <div className="w-full px-4 lg:w-[40%] flex">
             <div className="w-full lg:w-[70%] lg:text-left">
             <p className="font-medium text-base lg:text-lg text-gray mb-4 lg:mb-5">ABOUT US</p>
             <h1 className="text-4xl lg:text-5xl font-bold mb-6 lg:mb-10 text-black">
