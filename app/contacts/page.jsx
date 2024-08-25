@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
+import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -7,6 +8,8 @@ import React from 'react'
 const Contacts = () => {
   return (
     <div>
+            <title>Contact Us - Tender Heart Charity Foundation</title>
+        
         <Navbar />
         <section className="lg:h-[812px] pb-20 lg:pb-[150px] w-full bg-gray-1 text-black">
             <div className="container lg:flex items-end">
@@ -20,17 +23,17 @@ const Contacts = () => {
             </div>
         </section>
 
-        <section className="flex sm:px-4 sm:flex-col-reverse items-center justify-center">
-            <div className="w-full mt-[5%] lg:ml-[15%] items-center justify-center">
-                <div className="lg:w-[80%]">
+        <section className="flex sm:px-4 sm:flex-col-reverse lg:flex-row items-center justify-center">
+            <div className="w-full mt-[5%] items-center justify-center">
+                <div className="lg:w-[80%] lg:ml-[30%]">
                     <p className="font-medium text-lg text-gray mb-5">GET IN TOUCH</p>
                     <h1 className="text-3xl lg:text-5xl font-bold mb-10  text-black">Connect with us today. Let’s talk together.</h1>
                 </div>
             </div>
-            <div className="w-full">
-                <div className="w-full lg:flex items-start lg:mb-[154px] space-y-5 lg:mt-[-150px]">
-                    <Image src="/images/hands.webp" className="border-[15px] lg:border-[30px] border-secondary sm:w-full lg:ml-[-200px]" width={300} height={300} alt="Image" />
-                    <Image src="/images/children.webp" className="lg:ml-[50px] sm:w-full lg:w-[70%]" width={600} height={600} alt="Image" />
+            <div className="w-full flex sm:justify-center justify-end mb-[154px] lg:mt-[-100px]">
+                <div className="flex w-full lg:w-fit sm:flex-col justify-end lg:flex-row items-start gap-10">
+                    <Image src="/images/hands.webp" className="border-[15px] lg:border-[30px] border-secondary sm:w-full lg:w-[40%] " width={300} height={300} alt="Image" />
+                    <Image src="/images/children.webp" className="w-full lg:w-[70%]" width={600} height={600} alt="Image" />
                 </div>
             </div>
         </section>

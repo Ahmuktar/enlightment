@@ -14,21 +14,23 @@ const SingleProgram = () => {
   
     // Find the matching program based on the current route
     const program = programs.find(p => p.link == router);
+    const pageTitle = program?.title ? `${program.title} - Enlightment` : "Loading...";
   
     return (
       <div>
+        <title>{pageTitle}</title>
         <Navbar isLight={true} />
-        <section className="h-full w-full bg-[url('/images/handbg.webp')] bg-no-repeat bg-center bg-cover text-slate-50">
-          <div className="flex sm:text-center lg:justify-center h-[400px] lg:min-h-[1105px] w-full max-w-[1285px] px-4 lg:px-0">
-            <div className="flex flex-col lg:max-w-[58%] justify-center lg:text-left">
-              <h1 className="text-4xl lg:text-8xl font-bold mb-4">{program?.title}</h1>
-              <p className="text-2xl mt-4 lg:w-[500px]">Use our fundraising tools to create campaigns helping children in poverty.</p>
+        <section className="lg:h-[812px] pb-20 lg:pb-[150px] w-full bg-[url('/images/handbg.webp')] bg-no-repeat bg-center bg-cover text-slate-50">
+            <div className="container lg:pl-[100px] lg:flex justify-center items-center">
+                <div className="w-full pt-28 lg:pt-[250px] lg:max-w-[65%] text-center flex flex-col items-center justify-center">
+                  <h1 className="text-4xl lg:text-8xl font-bold mb-4 text-center">{program?.title}</h1>
+                  <p className="text-2xl mt-4 lg:w-[500px] text-center">Use our fundraising tools to create campaigns helping children in poverty.</p>
+                </div>
             </div>
-          </div>
         </section>
 
-        <section className="flex sm:flex-col sm:mt-10 container items-center lg:items-start justify-center gap-10 lg:gap-20">
-            <Image src="/images/image9.png" className="sm:w-full" width={500} height={400} alt="Image" />
+        <section className="flex lg:flex-row sm:flex-col sm:mt-10 container items-center lg:items-start justify-center gap-10 lg:gap-20">
+            <Image src="/images/image9.png" className="sm:w-full lg:w-fit" width={500} height={400} alt="Image" />
             <Image src="/images/image13.png" className="" width={500} height={400} alt="Image" />
         </section>
 

@@ -16,7 +16,7 @@ const Home = () => {
     <div className="w-screen">
     <Navbar isLight={true} />
 
-    <main class="flex-1">
+    <main className="flex-1">
       <div>
         <Hero />
         <ClientSection />

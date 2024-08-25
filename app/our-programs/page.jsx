@@ -9,14 +9,15 @@ import React from 'react'
 const OurPrograms = () => {
   return (
     <div>
+      <title>Our Programs - Enlightment</title>
         <Navbar isLight={true} />
-        <section className="h-full w-full bg-[url('/images/handbg.webp')] bg-no-repeat bg-center bg-cover text-slate-50">
-          <div className="flex lg:justify-center h-[400px] lg:min-h-[1105px] w-full max-w-[1285px] px-4 lg:px-0">
-            <div className="flex flex-col lg:max-w-[58%] justify-center lg:text-left">
-              <h1 className="text-6xl lg:text-8xl font-bold mb-4">All about our programs</h1>
-              <p className="text-2xl mt-4 lg:w-[500px]">We have created programs that will help people in various areas of life. Good should be distributed in all areas of life!</p>
+        <section className="lg:h-[812px] pb-20 lg:pb-[150px] w-full bg-[url('/images/handbg.webp')] bg-no-repeat bg-center bg-cover text-slate-50">
+            <div className="container lg:pl-[100px] lg:flex items-start">
+                <div className="w-full lg:max-w-[58%] pt-28 lg:pt-[250px]">
+                  <h1 className="text-5xl lg:text-8xl font-bold mb-4">All about our programs</h1>
+                  <p className="text-2xl mt-5 lg:w-[500px]">We have created programs that will help people in various areas of life. Good should be distributed in all areas of life!</p>
+                </div>
             </div>
-          </div>
         </section>
 
         <section className="container lg:mb-[150px] sm:mt-10 lg:flex items-center justify-center">
@@ -42,7 +43,7 @@ const OurPrograms = () => {
           </div>
         </section>
 
-      <section className="container lg:mb-[150px] flex sm:flex-col-reverse items-center justify-center">
+      <section className="container lg:mb-[150px] flex sm:flex-col-reverse lg:flex-row items-center justify-center">
         <div className="w-full pt-[61px] flex flex-col justify-center">
           <p className="font-medium text-lg text-gray uppercase mb-5">Education</p>
           <Link href={programs[1].link} className="text-5xl hover:text-primary font-bold mb-5 text-black">
@@ -80,7 +81,7 @@ const OurPrograms = () => {
         </div>
       </section>
 
-      <section className="container mb-[150px] flex sm:flex-col-reverse items-center justify-center">
+      <section className="container mb-[150px] flex sm:flex-col-reverse lg:flex-row items-center justify-center">
         <div className="w-full pt-[61px] flex flex-col justify-center">
           <p className="font-medium text-lg text-gray uppercase mb-5">Empowerment</p>
           <Link href={programs[3].link} className="text-5xl hover:text-primary font-bold mb-5 text-black">

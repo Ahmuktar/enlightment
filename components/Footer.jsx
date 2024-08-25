@@ -27,33 +27,33 @@ const Footer = () => {
                 <p className="text-secondary text-xl lg:text-2xl underline w-96">enlightment@example.com</p>
             </div>
             <div className="w-full flex flex-col">
-                  <div class="grid grid-cols-1 gap-6 grow md:grid-cols-3">
-                    <div class="mt-4 md:mt-0">
-                        <h2 class="mb-7 text-lg font-semibold">Company</h2>
-                        <ul class="grid gap-2">
-                            <li><a class="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Who We Are</a></li>
-                            <li><a class="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Our Programs</a></li>
-                            <li><a class="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Volunteer</a></li>
-                            <li><a class="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Events</a></li>
-                            <li><a class="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Contacts</a></li>
+                  <div className="grid grid-cols-1 gap-6 grow md:grid-cols-3">
+                    <div className="mt-4 md:mt-0">
+                        <h2 className="mb-7 text-lg font-semibold">Company</h2>
+                        <ul className="grid gap-2">
+                            <li><a className="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Who We Are</a></li>
+                            <li><a className="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Our Programs</a></li>
+                            <li><a className="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Volunteer</a></li>
+                            <li><a className="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Events</a></li>
+                            <li><a className="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Contacts</a></li>
                             
                         </ul>
                     </div>
-                    <div class="mt-4 md:mt-0">
-                        <h2 class="mb-6 text-lg font-semibold">Social</h2>
-                        <ul class="grid gap-2">
-                            <li><a class="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">LinkedIn</a></li>
-                            <li><a class="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Twitter</a></li>
-                            <li><a class="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Facebook</a></li>
-                            <li><a class="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Instagram</a></li>
-                            <li><a class="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">YouTube</a></li>
+                    <div className="mt-4 md:mt-0">
+                        <h2 className="mb-6 text-lg font-semibold">Social</h2>
+                        <ul className="grid gap-2">
+                            <li><a className="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">LinkedIn</a></li>
+                            <li><a className="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Twitter</a></li>
+                            <li><a className="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Facebook</a></li>
+                            <li><a className="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Instagram</a></li>
+                            <li><a className="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">YouTube</a></li>
                         </ul>
                     </div>
-                    <div class="mt-4 md:mt-0">
-                        <h2 class="mb-6 text-lg font-semibold">Legal</h2>
-                        <ul class="grid gap-2">
-                            <li><a class="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Terms and conditions</a></li>
-                            <li><a class="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Privacy policy</a></li>
+                    <div className="mt-4 md:mt-0">
+                        <h2 className="mb-6 text-lg font-semibold">Legal</h2>
+                        <ul className="grid gap-2">
+                            <li><a className="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Terms and conditions</a></li>
+                            <li><a className="cursor-pointer font-normal text-gray duration-200 hover:text-black hover:opacity-90" href="#">Privacy policy</a></li>
                         </ul>
                     </div>
                   </div>

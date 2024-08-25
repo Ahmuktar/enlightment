@@ -7,14 +7,15 @@ import React from 'react'
 const Events = () => {
   return (
     <div>
+        <title>Events - Enlightment</title>
         <Navbar isLight={true} />
-        <section className="h-full w-full bg-[url('/images/handbg.webp')] bg-no-repeat bg-center bg-cover text-slate-50">
-          <div className="flex lg:justify-center h-[400px] lg:min-h-[1105px] w-full max-w-[1285px] px-4 lg:px-0">
-            <div className="flex flex-col lg:max-w-[58%] justify-center lg:text-left">
-              <h1 className="text-5xl lg:text-8xl font-bold mb-4">View our latest & upcoming events</h1>
-              <p className="text-2xl mt-4 lg:w-[500px]">Use our fundraising tools to create campaigns helping children in poverty.</p>
+        <section className="lg:h-[812px] pb-20 lg:pb-[150px] w-full bg-[url('/images/handbg.webp')] bg-no-repeat bg-center bg-cover text-slate-50">
+            <div className="container lg:pl-[100px] lg:flex items-start">
+                <div className="w-full lg:max-w-[58%] pt-28 lg:pt-[250px]">
+                  <h1 className="text-5xl lg:text-8xl font-bold mb-4">View our latest & upcoming events</h1>
+                  <p className="text-2xl mt-5 lg:w-[500px]">Use our fundraising tools to create campaigns helping children in poverty.</p>
+                </div>
             </div>
-          </div>
         </section>
 
         <section className="mt-20 pb-[150px]">

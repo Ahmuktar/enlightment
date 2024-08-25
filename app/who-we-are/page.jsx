@@ -11,6 +11,7 @@ import React from 'react'
 const Volunteer = () => {
   return (
     <div>
+        <title>Who We Are - Enlightment</title>
         <Navbar />
         <section className="lg:h-[812px] pb-20 lg:pb-[150px] w-full bg-gray-1 text-black">
             <div className="container lg:flex items-end">

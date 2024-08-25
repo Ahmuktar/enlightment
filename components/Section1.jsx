@@ -4,7 +4,7 @@ import React from 'react'
 
 const Section1 = () => {
   return (
-    <div className="container flex flex-wrap-reverse items-center justify-center">
+    <div className="container flex sm:flex-col-reverse lg:flex-row items-center sm:justify-center">
         <div className="w-full pt[61px] px-[20px] flex flex-col justify-center">
             <p className="font-medium text-lg text-gray mb-5">MEET THE VISIONARY</p>
             <h1 className="text-5xl sm:text-3xl font-bold mb-10 text-black w-full lg:w-[70%]">We work together! We listen. We advice.</h1>

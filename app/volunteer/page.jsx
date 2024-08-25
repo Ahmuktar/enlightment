@@ -10,9 +10,10 @@ import React from 'react'
 const Volunteer = () => {
   return (
     <div>
+        <title>Volunteer - Enlightment</title>
         <Navbar />
         <section className="lg:h-[812px] pb-20 lg:pb-[150px] w-full bg-gray-1 text-black">
-            <div className="container sm:text-center lg:flex items-end">
+            <div className="container lg:text-left sm:text-center lg:flex items-end">
                 <div className="w-full pt-28 lg:pt-[300px]">
                     <h1 className="text-5xl lg:text-8xl font-bold mb-4 text-primary">Become a volunteer</h1>
                     <p className="text-2xl lg:text-2xl my-4">Help our cause by volunteering today.</p>
@@ -22,9 +23,9 @@ const Volunteer = () => {
             </div>
         </section>
 
-        <section className="lg:flex sm:container items-center justify-center">
-            <div className="w-full mt-[6%] lg:ml-[15%] items-center justify-center">
-                <div className="lg:w-[60%]">
+        <section className="lg:flex items-center justify-between">
+            <div className="w-full mt-[6%] flex items-center justify-center">
+                <div className="lg:w-[60%] lg:ml-[15%] w-full">
                     <p className="font-medium text-lg text-gray mb-5">JOIN US IN OUR MISSION</p>
                     <h1 className="text-5xl font-bold mb-10  text-black">We’re bringing people together to end poverty for good.</h1>
                     <p className="font-normal text-2xl my-10 text-gray">
@@ -41,14 +42,14 @@ const Volunteer = () => {
                 </div>
             </div>
             <div className="w-full">
-                <div className="w-full flex items-start mb-[154px] lg:mt-[-450px]">
-                    <div className="flex sm:flex-col-reverse items-end justify-between gap-5 lg:gap-20">
-                        <Image src="/images/image6.webp" className="sm:w-full lg:ml-[-200px]" width={300} height={400} alt="Image" />
-                        <Image src="/images/image7.webp" className="border-[15px] lg:border-[50px] mr-auto border-secondary" width={600} height={600} alt="Image" />
+                <div className="w-full flex justify-end items-start mb-[154px] lg:mt-[-300px]">
+                    <div className="flex w-fit sm:flex-col-reverse lg:flex-row items-end gap-10">
+                        <Image src="/images/image6.webp" className="" width={300} height={400} alt="Image" />
+                        <Image src="/images/image7.webp" className="border-[15px] lg:border-[50px] border-secondary" width={600} height={600} alt="Image" />
                     </div>
                 </div>
-                <div className="">
-                    <Image src="/images/image8.webp" className="sm:w-full" width={300} height={300} alt="Image" />
+                <div className="flex justify-center">
+                    <Image src="/images/image8.webp" className="sm:w-full lg:w-fit" width={300} height={300} alt="Image" />
                 </div>
             </div>
             
@@ -60,7 +61,7 @@ const Volunteer = () => {
             <div className="mx-auto flex flex-col text-center items-center justify-center w-fit">
                 <p className="font-medium text-lg text-gray uppercase mb-5">Donate now</p>
                 <h1 className="text-3xl lg:text-5xl font-bold mb-11 lg:w-[65%] text-black">Explore ways you can help today.</h1>
-                <div className="container text-left flex sm:flex-col items-start gap-10">
+                <div className="container text-left flex lg:flex-row sm:flex-col items-start gap-10">
                     <div className="w-full py-10 lg:py-20 px-10 lg:px-14 border-b-8 border-secondary bg-gray-1">
                         <h1 className="text-4xl font-bold mb-6">In person</h1>
                         <p className="text-2xl mb-11 text-gray">You can make a donation visiting our office. Use the address below to find our location and make sure our intentions are real.</p>
