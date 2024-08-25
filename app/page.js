@@ -14,10 +14,9 @@ import React from 'react'
 const Home = () => {
   return (
     <div className="w-screen">
-    <Navbar isLight={true} />
+      <Navbar isLight={true} />
 
-    <main className="flex-1">
-      <div>
+      <main className="flex-1">
         <Hero />
         <ClientSection />
         <MissionVision />
@@ -27,11 +26,10 @@ const Home = () => {
         <Section2 />
         <EventsSection />
         <Section3 />
-      </div>
-    </main>
-    
-    <Footer />
-  </div>
+      </main>
+      
+      <Footer />
+    </div>
   )
 }
 

@@ -8,7 +8,7 @@ import React from 'react'
 const Contacts = () => {
   return (
     <div>
-            <title>Contact Us - Tender Heart Charity Foundation</title>
+        <title>Contacts - Enlightment</title>
         
         <Navbar />
         <section className="lg:h-[812px] pb-20 lg:pb-[150px] w-full bg-gray-1 text-black">

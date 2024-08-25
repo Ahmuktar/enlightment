@@ -4,9 +4,9 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row sm:items-center justify-center mb-32 lg:mb-[129px] px-4 lg:px-0">
+    <div className="flex flex-col-reverse lg:flex-row sm:items-center justify-center mb-32 lg:mb-[129px] lg:px-0">
         {/* Left Section */}
-        <div className="w-full lg:w-[60%] px-4 mb-12 lg:mb-0">
+        <div className="w-full lg:w-[60%] mb-12 lg:mb-0">
             <Image 
                 src="/images/image1.webp" 
                 className="lg:mx-auto lg:mb-[50px] sm:mt-8 mb-8" 
