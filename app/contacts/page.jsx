@@ -66,7 +66,7 @@ const Contacts = () => {
                 </div>
             </div>
             
-            <div className="flex flex-col lg:flex-row flex-col items-start container justify-start gap-5 lg:gap-12">
+            <div className="flex lg:flex-row flex-col items-start container justify-start gap-5 lg:gap-12">
                 <small className="text-gray text-sm lg:w-[60%]">By signing and clicking Submit, you affirm you have read and agree to the <Link href="#" className="text-primary">Privacy Policy</Link> and <Link href="#" className="text-primary">Terms of Use</Link>, and want to receive news.</small>
 
                 <Link href="/who-we-are" type="button" className="bg-secondary text-lg font-semibold text-black rounded-full hover:bg-primary w-fit py-5 px-10">
