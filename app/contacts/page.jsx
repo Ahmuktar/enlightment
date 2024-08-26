@@ -31,8 +31,8 @@ const Contacts = () => {
                 </div>
             </div>
             <div className="w-full flex sm:justify-center justify-end mb-10 lg:mb-[154px] lg:mt-[-100px]">
-                <div className="flex w-full lg:w-fit sm:flex-col justify-end lg:flex-row items-start gap-10">
-                    <Image src="/images/hands.webp" className="border-[15px] lg:border-[30px] border-secondary sm:w-full lg:w-[40%] " width={300} height={300} alt="Image" />
+                <div className="flex w-full lg:w-fit flex-col justify-end lg:flex-row items-start gap-10">
+                    <Image src="/images/hands.webp" className="border-[15px] lg:border-[30px] border-secondary w-full lg:w-[40%] " width={300} height={300} alt="Image" />
                     <Image src="/images/children.webp" className="w-full lg:w-[70%]" width={600} height={600} alt="Image" />
                 </div>
             </div>
