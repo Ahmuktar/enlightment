@@ -70,7 +70,7 @@ const Navbar = ({ isLight }) => {
         {/* Contact Section */}
         <div className="flex items-center gap-3 text-primary">
           <PhoneCall />
-          <h1 className="text-xl lg:text-2xl font-bold">+1234 567 8901</h1>
+          <h1 className="text-xl lg:text-2xl font-bold">07012345676</h1>
         </div>
 
         {/* Mobile Navigation Toggle */}
