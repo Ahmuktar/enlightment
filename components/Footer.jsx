@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="container">
         <div className="lg:flex items-center justify-between pt-[100px] lg:pt-[150px] pb-8 lg:pb-[66px]">
             <div className="w-full sm:mb-10">
-                <Image src="/images/logoblack.webp" className="mb-5" width={200} height={200} alt="Logo" />
+                <Image src="/images/Logo.png" className="mb-5" width={200} height={200} alt="Logo" />
                 <p className="text-gray text-lg lg:w-96">Good deeds are available to everyone! And there are a lot of responsive people around who are ready to help.</p>
             </div>
             <div className="w-full flex flex-col">
