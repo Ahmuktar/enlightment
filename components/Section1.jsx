@@ -13,11 +13,15 @@ const Section1 = () => {
     <p className="font-normal text-xl lg:text-2xl sm:w-[83%] lg:my-10 text-gray-700">
       Binarify Community Outreach was founded by Samuel Adeniyi with a clear vision to empower underserved communities in Nigeria. By providing access to quality education, healthcare, and sustainable development initiatives, we aim to create opportunities for all, regardless of their background.
     </p>
-    <div className="my-16">
-      <Link href="/volunteer" type="button" className="bg-[#301717] text-lg font-semibold text-white rounded-full hover:bg-primary w-full py-5 px-20">
-        Volunteer Now
-      </Link>
-    </div>
+    <div className="my-16 flex justify-center">
+  <Link 
+    href="/volunteer" 
+    type="button" 
+    className="bg-[#301717] text-lg font-semibold text-white rounded-full hover:bg-primary w-full max-w-[300px] md:max-w-[400px] py-4 px-6 text-center"
+  >
+    Volunteer Now
+  </Link>
+</div>
   </div>
   <div className="w-full lg:w-[45%]">
     <Image src="/images/smile.jpg" className="w-full rounded-lg shadow-lg" width={500} height={500} alt="Image of Community" />

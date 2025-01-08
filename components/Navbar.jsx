@@ -70,9 +70,10 @@ const Navbar = ({ isLight }) => {
         {/* Donate Button */}
     <div className="flex items-center">
       <Link href="/contacts">
-        <button className="bg-primary text-white px-6 py-2 rounded-lg font-bold text-lg shadow hover:bg-secondary transition-all">
-          Donate
-        </button>
+      <button className="hidden md:block bg-primary text-white px-6 py-2 rounded-lg font-bold text-lg shadow hover:bg-secondary transition-all">
+  Donate
+</button>
+
       </Link>
     </div>
 
