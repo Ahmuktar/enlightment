@@ -18,7 +18,7 @@ const Events = () => {
             </div>
         </section>
 
-        <section className="mt-20 pb-5 lg:pb-[150px]">
+        <section className="mt-20 pb-5 lg:pb-[5px]">
             <div className="mx-auto flex flex-col text-center items-center justify-center w-fit">
                 <div className="flex flex-col lg:flex-row justify-between mx-auto container items-start gap-10 lg:gap-14">
                     { events.map((event) => {

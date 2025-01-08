@@ -13,7 +13,7 @@ const Navbar = ({ isLight }) => {
   const pathname = usePathname();
   const [authState, setAuthState] = useState(false);
   const textColor = isLight ? 'text-white' : 'text-black';
-  const logoSrc = isLight ? '/images/Logo.png' : '/images/Logo.png'; // Assuming you have a light version of the logo
+  const logoSrc = isLight ? '/images/logo.png' : '/images/logo.png'; // Assuming you have a light version of the logo
 
   return (
     <div className="absolute w-full z-40 bg-transparent px-4 lg:px-10">
