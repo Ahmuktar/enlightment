@@ -12,7 +12,7 @@ const Section3 = () => {
                 <Link
   href="/who-we-are"
   type="button"
-  className="bg-secondary text-lg font-semibold text-[#222] rounded-full hover:bg-primary w-full lg:w-auto py-5 px-10 lg:px-20 text-center"
+  className="bg-secondary text-sm lg:text-lg font-semibold text-[#222] rounded-full hover:bg-primary w-full lg:w-auto py-4 lg:py-5 px-6 lg:px-20 text-center"
 >
   Join Us in Making an Impact
 </Link>
