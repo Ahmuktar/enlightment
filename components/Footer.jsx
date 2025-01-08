@@ -19,15 +19,16 @@ const Footer = () => {
         
         {/* Company Links */}
         <div>
-          <h3 className="text-lg font-semibold text-primary mb-4">Company</h3>
-          <ul className="flex space-x-8">
-            <li><Link href="#" className="text-gray-400 hover:text-white text-sm">Who We Are</Link></li>
-            <li><Link href="#" className="text-gray-400 hover:text-white text-sm">Our Programs</Link></li>
-            <li><Link href="#" className="text-gray-400 hover:text-white text-sm">Volunteer</Link></li>
-            <li><Link href="#" className="text-gray-400 hover:text-white text-sm">Events</Link></li>
-            <li><Link href="#" className="text-gray-400 hover:text-white text-sm">Contacts</Link></li>
-          </ul>
-        </div>
+  <h3 className="text-lg font-semibold text-primary mb-4">Company</h3>
+  <ul className="flex flex-wrap lg:flex-nowrap gap-4 lg:space-x-8">
+    <li><Link href="#" className="text-gray-400 hover:text-white text-sm">Who We Are</Link></li>
+    <li><Link href="#" className="text-gray-400 hover:text-white text-sm">Our Programs</Link></li>
+    <li><Link href="#" className="text-gray-400 hover:text-white text-sm">Volunteer</Link></li>
+    <li><Link href="#" className="text-gray-400 hover:text-white text-sm">Events</Link></li>
+    <li><Link href="#" className="text-gray-400 hover:text-white text-sm">Contacts</Link></li>
+  </ul>
+</div>
+
 
         {/* Social Media Icons */}
         <div>
