@@ -9,9 +9,14 @@ const Section3 = () => {
                 <h1 className="text-4xl lg:text-8xl font-bold mb-4">Empowering Communities Through Support and Sponsorship.</h1>
                 <p className="text-2xl my-4">Together, we can make a difference. Every individual deserves a chance to thrive.</p>
                 <div className="mt-16 lg:my-16">
-                    <Link href="/who-we-are" type="button" className="bg-secondary text-lg font-semibold text-[#222] rounded-full hover:bg-primary w-full py-5 px-20">
-                    Join Us in Making an Impact
-                    </Link>
+                <Link
+  href="/who-we-are"
+  type="button"
+  className="bg-secondary text-lg font-semibold text-[#222] rounded-full hover:bg-primary w-full lg:w-auto py-5 px-10 lg:px-20 text-center"
+>
+  Join Us in Making an Impact
+</Link>
+
                 </div>
             </div>
         </div>
