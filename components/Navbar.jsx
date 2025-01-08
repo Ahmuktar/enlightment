@@ -67,11 +67,14 @@ const Navbar = ({ isLight }) => {
           })}
         </div>
 
-        {/* Contact Section */}
-        <div className="flex items-center gap-3 text-primary">
-          <PhoneCall />
-          <h1 className="text-xl lg:text-2xl font-bold">07012345676</h1>
-        </div>
+        {/* Donate Button */}
+    <div className="flex items-center">
+      <Link href="/donate">
+        <button className="bg-primary text-white px-6 py-2 rounded-lg font-bold text-lg shadow hover:bg-secondary transition-all">
+          Donate
+        </button>
+      </Link>
+    </div>
 
         {/* Mobile Navigation Toggle */}
         <div className="lg:hidden">

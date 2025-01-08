@@ -75,9 +75,9 @@ const Contacts = () => {
             </div>
         </section>
 
-        <section className="w-full h-[300px] lg:h-[700px] mt-10 lg:my-20">
+        {/* <section className="w-full h-[300px] lg:h-[700px] mt-10 lg:my-20">
             <iframe loading="lazy" src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" title="London Eye, London, United Kingdom" aria-label="London Eye, London, United Kingdom" className="w-full h-full"></iframe>
-        </section>
+        </section> */}
 
         <Footer />
     </div>

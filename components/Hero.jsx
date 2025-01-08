@@ -8,10 +8,10 @@ const Hero = () => {
         <div className="flex lg:justify-center min-h-[600px] lg:min-h-[1105px] w-full max-w-[1285px] px-4 lg:px-0">
             <div className="flex flex-col lg:max-w-[58%] justify-center lg:text-left">
                 <h1 className="text-3xl md:text-6xl lg:text-8xl font-bold mb-4">
-                    Give a helping hand to those who need it!
+                Transforming lives in Nigeria
                 </h1>
                 <p className="text-2xl my-4">
-                    When a child gets access to good food, it can
+                through innovative education and accessible healthcare
                     <br className="hidden sm:block" />
                     change just about everything.
                 </p>
@@ -21,7 +21,7 @@ const Hero = () => {
                     type="button"
                     className="bg-secondary text-lg font-semibold text-[#222] rounded-full hover:text-white hover:bg-primary py-4 px-10 sm:px-16 md:px-20"
                     >
-                    About Us
+                    Get Involved
                     </Link>
                 </div>
             </div>

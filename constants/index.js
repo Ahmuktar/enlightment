@@ -1,95 +1,94 @@
+// Website links and routes updated for Binarify Community Outreach
 export const websiteLinks = [
     {
         label: 'Home',
         route: '/',
     },
     {
-        label: 'Who we are',
-        route: '/who-we-are',
+        label: 'About Us',
+        route: '/about-us',
     },
     {
         label: 'Our Programs',
         route: '/our-programs',
         subLinks: [
             {
-                label: 'Program 1',
-                route: '/our-programs/program-1',
+                label: 'Healthcare Initiatives',
+                route: '/our-programs/healthcare-initiatives',
             },
             {
-                label: 'Program 2',
-                route: '/our-programs/program-2',
+                label: 'Education for All',
+                route: '/our-programs/education-for-all',
             },
             {
-                label: 'Program 3',
-                route: '/our-programs/program-3',
+                label: 'Community Empowerment',
+                route: '/our-programs/community-empowerment',
             },
             {
-                label: 'Program 4',
-                route: '/our-programs/program-4',
+                label: 'Sustainable Development',
+                route: '/our-programs/sustainable-development',
             },
-
         ],
-        
     },
     {
-        label: 'Volunteer',
+        label: 'Volunteer With Us',
         route: '/volunteer',
     },
     {
-        label: 'Events',
+        label: 'Upcoming Events',
         route: '/events',
     },
     {
-        label: 'Contacts',
-        route: '/contacts',
+        label: 'Contact Us',
+        route: '/contact',
     },
-
 ];
 
-
+// Event details updated for Binarify Community Outreach events
 export const events = [
     {
-        title: 'Help for language. Voluanteer',
-        date: 'April 15 – April 20, 2023',
-        description: 'Many children are abandoned by their parents, but when appropriate conditions are created…',
-        link: "/",
-        imgUrl: "/images/event1.webp"
+        title: 'Volunteer for Health Awareness Campaign',
+        date: 'March 10 – March 15, 2024',
+        description: 'Join us in raising awareness for health initiatives in underserved communities. Your participation will make a significant impact!',
+        link: "/events/health-awareness-campaign",
+        imgUrl: "/images/event1.jpg",
     },
     {
-        title: 'Communities that you can help',
-        date: 'April 15 – April 20, 2023',
-        description: 'Support for children with disabilities from low-income and disadvantaged families.',
-        link: "/",
-        imgUrl: "/images/event2.webp"
+        title: 'Supporting Children’s Education: A Call for Action',
+        date: 'April 5 – April 10, 2024',
+        description: 'Help provide quality education for children in rural areas. Together, we can create better opportunities for the next generation.',
+        link: "/events/education-support",
+        imgUrl: "/images/event2.jpg",
     },
     {
-        title: 'The culture of Africa. Rebirth',
-        date: 'April 15 – April 20, 2023',
-        description: 'Give your child a chance at a healthy life. Your help will return hope.',
-        link: "/",
-        imgUrl: "/images/event3.webp"
+        title: 'Sustainable Living for Future Generations',
+        date: 'May 12 – May 18, 2024',
+        description: 'Be part of a campaign promoting sustainable development and eco-friendly practices in communities across Nigeria.',
+        link: "/events/sustainable-living",
+        imgUrl: "/images/event3.webp",
     },
 ];
 
+// Programs updated to reflect Binarify Community Outreach's mission and goals
 export const programs = [
     {
-        title: 'Fighting poverty by improving health.',
-        description: 'Many children are abandoned by their parents, but when appropriate conditions are created…',
-        link : "/our-programs/fighting-poverty-by-improving-health"
+        title: 'Empowering Communities through Healthcare',
+        description: 'Providing access to essential healthcare services, including medical outreach and health education programs for vulnerable communities.',
+        link: "/our-programs/healthcare-initiatives",
     },
     {
-        title: 'Invested in education.',
-        description: 'Support for children with disabilities from low-income and disadvantaged families.',
-        link : "/our-programs/invested-in-education"
+        title: 'Education for All: Breaking Barriers',
+        description: 'Investing in education to provide quality learning environments for children, especially those from low-income families.',
+        link: "/our-programs/education-for-all",
     },
     {
-        title: 'The joy of life.',
-        description: 'Support for children with disabilities from low-income and disadvantaged families.',
-        link : "/our-programs/the-joy-of-life"
+        title: 'Economic Empowerment through Skills Training',
+        description: 'Supporting youth and adults with vocational training programs to help them develop marketable skills and improve livelihoods.',
+        link: "/our-programs/community-empowerment",
     },
     {
-        title: 'Together against the elements.',
-        description: 'Give your child a chance at a healthy life. Your help will return hope.',
-        link : "/our-programs/working-for-a-better-future"
+        title: 'Sustainable Development for a Better Future',
+        description: 'Promoting eco-friendly initiatives to help build resilient communities that are prepared for the challenges of the future.',
+        link: "/our-programs/sustainable-development",
     },
 ];

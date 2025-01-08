@@ -18,7 +18,7 @@ const Home = () => {
 
       <main className="flex-1">
         <Hero />
-        <ClientSection />
+        {/* <ClientSection /> */}
         <MissionVision />
         <AboutUs />
         <Section1 />

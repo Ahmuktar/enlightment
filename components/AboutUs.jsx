@@ -4,52 +4,50 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row sm:items-center justify-center mb-18 lg:mb-[129px]">
-        {/* Left Section */}
-        <div className="w-full sm:px-4 lg:w-[60%] mb-12 lg:mb-0">
-            <Image 
-                src="/images/image1.webp" 
-                className="lg:mx-auto lg:mb-[50px] sm:mt-8 mb-8" 
-                width={300} 
-                height={300} 
-                alt="Image" 
-            />
-            {/* Bottom Images */}
-            <div className="flex flex-col-reverse lg:flex-row place-items-end lg:place-items-start">
-                <Image 
-                src="/images/children.webp" 
-                className="mb-6 lg:mb-[20px] order-2 w-full lg:w-auto" 
-                width={600} 
-                height={600} 
-                alt="Image" 
-                />
-                <Image 
-                src="/images/hands.webp" 
-                className="border-[20px] sm:mb-10 lg:border-[30px] order-3 border-secondary w-full lg:ml-[50px] lg:w-auto mt-6 lg:mt-0" 
-                width={300} 
-                height={300} 
-                alt="Image" 
-                />
-            </div>
-        </div>
+<div className="flex flex-col-reverse lg:flex-row items-center justify-between mb-16 lg:mb-[100px] gap-8">
+  {/* Left Section - Image */}
+  <div className="w-full lg:w-[55%] flex justify-center">
+    <Image
+      src="/images/children.jpg"
+      className="rounded-lg shadow-lg w-full max-w-lg"
+      width={800}
+      height={700}
+      alt="Image of children"
+    />
+  </div>
 
-        {/* Right Section */}
-        <div className="w-full px-4 lg:w-[40%] flex">
-            <div className="w-full lg:w-[70%] lg:text-left">
-            <p className="font-medium text-base lg:text-lg text-gray mb-4 lg:mb-5">ABOUT US</p>
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6 lg:mb-10 text-black">
-                We are tender heart charity foundation.
-            </h1>
-            <p className="font-normal text-xl lg:text-3xl mb-8 lg:my-10 text-gray">
-                The charitable foundation is created by people who know from their own experience about life’s difficulties. We want to return faith in good and give hope to those in need.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 lg:gap-5">
-                <Link href="/who-we-are" className="text-lg lg:text-xl underline font-bold">Who We Are</Link>
-                <Link href="/our-programs" className="text-lg lg:text-xl underline font-bold">Our Programs</Link>
-            </div>
-            </div>
-        </div>
+  {/* Right Section - Content */}
+  <div className="w-full px-4 lg:w-[45%]">
+    <div className="w-full">
+      <p className="font-medium text-sm lg:text-base text-gray-600 mb-3 lg:mb-4">
+        ABOUT US
+      </p>
+      <h1 className="text-3xl lg:text-4xl font-bold mb-4 lg:mb-6 text-black leading-snug">
+        We are Binarify Community Outreach.
+      </h1>
+      <p className="font-normal text-base lg:text-lg mb-6 lg:mb-8 text-gray-700 leading-relaxed">
+        Binarify Community Outreach is dedicated to empowering underserved communities in Nigeria. Through innovative education and healthcare initiatives, we foster self-reliance, economic empowerment, and sustainable development. 
+        Our mission is to ensure that every individual, regardless of background, has access to quality healthcare, education, and skills needed to thrive in a rapidly changing world.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-3 lg:gap-4">
+        <Link
+          href="/who-we-are"
+          className="text-sm lg:text-base underline font-bold text-primary"
+        >
+          Who We Are
+        </Link>
+        <Link
+          href="/our-programs"
+          className="text-sm lg:text-base underline font-bold text-primary"
+        >
+          Our Programs
+        </Link>
+      </div>
     </div>
+  </div>
+</div>
+
+
 
   )
 }
