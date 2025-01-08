@@ -7,7 +7,7 @@ import React from 'react'
 const Events = () => {
   return (
     <div>
-        <title>Events - Enlightment</title>
+        <title>Events - Binarify Outreach</title>
         <Navbar isLight={true} />
         <section className="lg:h-[812px] pb-20 lg:pb-[150px] w-full bg-[url('/images/handbg.webp')] bg-no-repeat bg-center bg-cover text-slate-50">
             <div className="container lg:pl-[100px] lg:flex items-start">

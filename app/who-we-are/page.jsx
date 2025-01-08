@@ -11,7 +11,7 @@ import React from 'react'
 const Volunteer = () => {
   return (
     <div>
-        <title>Who We Are - Enlightment</title>
+        <title>Who We Are - Binarify Outreach</title>
         <Navbar />
         <section className="lg:h-[812px] pb-20 lg:pb-[150px] w-full bg-gray-1 text-black">
             <div className="container lg:flex items-end">
@@ -20,7 +20,7 @@ const Volunteer = () => {
                     <p className="text-xl lg:text-2xl my-4">Use our fundraising tools to create campaigns helping children in poverty.</p>
                 </div>
                 <div className="w-full flex items-baseline justify-center">
-                    <Image src="/images/image3.webp" className="w-full lg:w-80" width={300} height={300} alt="Image" />
+                    <Image src="/images/image3.jpg" className="w-full lg:w-80" width={300} height={300} alt="Image" />
                 </div>
             </div>
         </section>
@@ -64,7 +64,7 @@ const Volunteer = () => {
 
         <Section2 />
 
-        <section className="py-10 lg:py-[150px]">
+        <section className="py-10 lg:py-[100px]">
             <div className="mx-auto flex flex-col text-center items-center justify-center w-fit">
                 <p className="font-medium text-lg text-gray uppercase mb-5">Meet our Team</p>
                 <h1 className="text-3xl lg:text-5xl font-bold mb-11 text-black">Do it for humanity. Join us.</h1>
@@ -72,9 +72,9 @@ const Volunteer = () => {
                 { [{id: 1},{id: 2},{id: 3},{id: 4},].map((event) => {
                     return (
                         <div key={event.id} className="text-left">
-                            <Image src="/images/staff1.webp" className="w-full mb-6" width={300} height={300} alt="Image" />
-                            <h2 className="text-2xl font-bold text-black mb-[17px]">Dianne Russell</h2>
-                            <h2 className="text-lg mt-3 font-bold text-primary">Ceo/Founder</h2>
+                            <Image src="/images/staff1.jpg" className="w-full mb-6" width={300} height={300} alt="Image" />
+                            <h2 className="text-2xl font-bold text-black mb-[17px]">Aliyu</h2>
+                            <h2 className="text-lg mt-3 font-bold text-primary">Co-Founder</h2>
                             <p className="font-normal text-2xl my-5 lg:my-10 text-gray">Assistance to orphans and children with disabilities.</p>
                         </div>
                     )

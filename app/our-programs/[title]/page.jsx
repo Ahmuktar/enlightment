@@ -14,7 +14,7 @@ const SingleProgram = () => {
   
     // Find the matching program based on the current route
     const program = programs.find(p => p.link == router);
-    const pageTitle = program?.title ? `${program.title} - Enlightment` : "Loading...";
+    const pageTitle = program?.title ? `${program.title} - Binarify Outreach` : "Loading...";
   
     return (
       <div>
@@ -54,7 +54,7 @@ const SingleProgram = () => {
             <h1 className="text-xl font-bold mt-10 mb-5 text-black">Let’s talk about giving.</h1>
             <p className="font-normal text-xl lg:w-[83%] my-2 text-gray">
                 If you’re interested in making a major gift, please contact our Tender Heart Community team at 
-                <span href="/" className="text-xl font-normal text-[#222]"> +1 234 567 8901 </span>  or <Link href="#" className="text-[#222]"> enlightment@example.com</Link>
+                <span href="/" className="text-xl font-normal text-[#222]"> +1 234 567 8901 </span>  or <Link href="#" className="text-[#222]"> Binarify Outreach@example.com</Link>
                         
             </p>
         </section>

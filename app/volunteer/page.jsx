@@ -73,7 +73,7 @@ const Volunteer = () => {
             <div className="w-full py-5 lg:py-20 px-5 lg:px-14 border-b-8 border-primary bg-gray-100">
                 <h1 className="text-3xl lg:text-4xl font-bold mb-6">Over the Phone or Email</h1>
                 <p className="text-xl lg:text-2xl mb-11 text-gray-600">Contact our team via phone or email to discuss donation options and how your funds will directly benefit those in need.</p>
-                <p className="text-lg lg:text-xl font-bold">+234 901 234 5678 or <Link href="#" className="text-primary"> enlightment@example.com</Link></p>
+                <p className="text-lg lg:text-xl font-bold">+234 901 234 5678 or <Link href="#" className="text-primary"> Binarify Outreach@example.com</Link></p>
             </div>
         </div>
     </div>

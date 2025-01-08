@@ -6,7 +6,7 @@ export const websiteLinks = [
     },
     {
         label: 'About Us',
-        route: '/about-us',
+        route: '/who-we-are',
     },
     {
         label: 'Our Programs',
@@ -40,7 +40,7 @@ export const websiteLinks = [
     },
     {
         label: 'Contact Us',
-        route: '/contact',
+        route: '/contacts',
     },
 ];
 

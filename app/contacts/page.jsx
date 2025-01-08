@@ -18,7 +18,7 @@ const Contacts = () => {
                     <p className="text-2xl lg:text-2xl my-4">Like what we stand for? Want more information? Need assistance?</p>
                 </div>
                 <div className="w-full flex items-baseline justify-center">
-                    <Image src="/images/image1.webp" className="w-full lg:w-80" width={300} height={300} alt="Image" />
+                    <Image src="/images/image1.jpg" className="w-full lg:w-80" width={400} height={400} alt="Image" />
                 </div>
             </div>
         </section>

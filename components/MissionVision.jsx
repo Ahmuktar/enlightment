@@ -31,7 +31,7 @@ const MissionVision = () => {
     <p className="text-gray-700 text-lg leading-relaxed mb-6">
       A Nigeria where every individual, regardless of background, has access to quality healthcare, education, and skills needed to thrive in a rapidly changing world.
     </p>
-    <Link href="/contact" className="text-secondary font-semibold underline">
+    <Link href="/contacts" className="text-secondary font-semibold underline">
       Contact Us
     </Link>
   </div>
